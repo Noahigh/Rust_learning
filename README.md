@@ -4,6 +4,7 @@
 
 - Test Mac mini push --- Third time
 
+- 我已经快要放弃Windows的Git配置了 囧
 
 
 
