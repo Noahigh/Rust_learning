@@ -10,6 +10,7 @@
 
 - 不理解为什么在Windows上配置个SSH这么难搞
 
+- Aliyun_ecs 第一次推送测试 
 
 
 
