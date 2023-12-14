@@ -12,6 +12,6 @@
 
 - Aliyun_ecs 第一次推送测试 
 
-
+- 给仓库增加.gitignore ......
 
 
