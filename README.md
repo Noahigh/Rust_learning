@@ -14,4 +14,6 @@
 
 - 给仓库增加.gitignore ......
 
+- 测试ssh-agent
+
 
