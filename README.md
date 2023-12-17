@@ -18,3 +18,5 @@
 
 - GitHub 这个git认证真是无语了
 
+- 用JetBrains的RustRover+GitHub的token能够pull代码，但是不能push。。。
+
