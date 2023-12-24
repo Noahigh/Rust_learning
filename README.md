@@ -20,5 +20,8 @@
 
 - 用JetBrains的RustRover+GitHub的token能够pull代码，但是不能push。。。
 
-- 一个SSh验证干到崩溃
+- 一个SSH验证干到崩溃
+
+- 😩
+
 
