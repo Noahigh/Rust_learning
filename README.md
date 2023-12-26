@@ -26,3 +26,5 @@
 
 - 等晚上回去看看Windows能不能自动自启动ssh-agent和增加密钥
 
+- 哎😑 Mac mini的Key也掉了
+
