@@ -18,7 +18,7 @@ fn main() {
         //     .expect("Please type a number!");  // 隐藏机制（Shadow），将字符串转换为某种数值，此处转换为u32（32位无符号整型）
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
-            Err(_) => continue,  // _ 
+            Err(_) => continue,  // _代表通配符，代表所有可能的Err
         };
         println!("You guessed:{}", guess);  // 打印提示信息：You guess2ed:[输入的数字]
 
