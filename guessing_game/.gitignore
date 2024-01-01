@@ -1,6 +1,0 @@
-# Ignoree Mac system files
-.DS_store
-
-# Ignore target folder
-target
-
