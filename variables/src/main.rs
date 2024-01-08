@@ -11,6 +11,12 @@ fn main() {
 
     // x = 6;  // 这是错误的
     let x = 6;  // 这里用到了隐藏（Shadow）特性
+    // 隐藏（Shadow）特性 本质上就是声明了一个新的变量，所以它的类型和值都是可以变的，甚至可以改变可变性
+    println!("The value of x is: {}", x);
+
+    let mut x = 32;
+    println!("[改变变量可变性]The value of x is: {}", x);
+    x = 33;
     println!("The value of x is: {}", x);
 
     // ==========================
