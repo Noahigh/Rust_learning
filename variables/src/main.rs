@@ -13,6 +13,7 @@ fn main() {
     let x = 6;  // 这里用到了隐藏（Shadow）特性
     // 隐藏（Shadow）特性 本质上就是声明了一个新的变量，所以它的类型和值都是可以变的，甚至可以改变其可变性
     println!("The value of x is: {}", x);
+    print_type_of(&x);
 
     let mut x = 32;
     println!("[改变变量可变性]The value of x is: {}", x);
@@ -31,4 +32,11 @@ fn main() {
     println!("Ths value of MAX_POINTS is: {}", MAX_POINTS);
 
     // MAX_POINTS = 999_999;  // 这是错误的，因为常量总是不可变的。
+
+
+}
+
+// 输出变量类型
+fn print_type_of<T>(_: &T) {
+    println!("变量类型为：{}", std::any::type_name::<T>())
 }
