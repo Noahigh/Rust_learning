@@ -1,6 +1,5 @@
-// 声明一个常量
+// 声明一个常量，常量的类型必须指定
 const MAX_POINTS:u32 = 100_000;
-
 
 fn main() {
     println!("Hello, world!");
@@ -20,8 +19,8 @@ fn main() {
     x = 33;
     println!("The value of x is: {}", x);
 
-    // ==========================
-    let mut y = 2;  // 声明可变变量
+    // ==========================================
+    let mut y = 2;  // 声明可变变量，自动推导类型为i32
 
     println!("The value of y is: {}", y);
 
@@ -32,6 +31,17 @@ fn main() {
     println!("Ths value of MAX_POINTS is: {}", MAX_POINTS);
 
     // MAX_POINTS = 999_999;  // 这是错误的，因为常量总是不可变的。
+
+    // ===========================================
+
+    let z = 25.73;  // 自动推导类型为f64
+    println!("The value of z is: {}", z);
+
+    x = x + 1;
+    println!("The value of x+1 is: {}", x);
+
+    x = x - y;
+    println!("The value of x-y is: {}", x);
 
 
 }
