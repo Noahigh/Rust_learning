@@ -46,7 +46,7 @@ fn main() {
     x = x - y;
     println!("The value of x-y is: {}", x);
 
-    let guess:u32 = "42".parse().expect("Not a number");  // 将字符串形式的数字转换为数字形式
+    let guess:u32 = "42".parse().expect("Not a number");  // 将字符串形式的数字转换为数字形式，此处必须标记变量类型，否则不知道转换成什么类型
     println!("The value of guess: {}", guess);
 }
 
