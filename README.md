@@ -43,3 +43,5 @@
 - 今天歇一天
 
 - 看看 Rust 怎么用 OpenCV 库
+
+- 又要去看Python了
