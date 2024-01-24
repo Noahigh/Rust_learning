@@ -36,6 +36,8 @@ fn main() {
 
     let z = 25.73;  // 自动推导类型为f64
     println!("The value of z is: {}", z);
+    println!("The type of z is:");
+    print_type_of(&z);
 
     x = x + 1;
     println!("The value of x+1 is: {}", x);
