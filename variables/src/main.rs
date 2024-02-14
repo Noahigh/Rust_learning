@@ -39,6 +39,8 @@ fn main() {
 
     let z = 25.73;  // 自动推导类型为f64
     println!("The value of z is: {}", z);
+    println!("The type of z is:");
+    print_type_of(&z);
 
     x = x + 1;
     println!("The value of x+1 is: {}", x);
@@ -53,6 +55,25 @@ fn main() {
     let t = true;
     let f: bool = false;  // 附带了显式类型标注的语句
 
+    // ===========================================
+
+    let c = 'z';  // 一个char类型，占4个字节，是一个Unicode变量值
+    // let z:char = '';
+    // let heart_eyed_cat = '';
+
+    // ===========================================
+
+    // 复合类型（Compound Type）- 元组（Typle） 固定长度，无法更改
+    let tup = (500, 6.4, 1);
+
+    let t = (1, 25.0, 'f');  // 元组可以是不同类型的数据
+    println!("The value of t: {:?}", t);
+
+    // 复合类型（Compound Type）- 数组（Array）
+    // let l = [1, 1.1, 'l'];  // 数组必须是同一类型的数据
+    // let l = [1, 2, 'l'];  // 数组必须是同一类型的数据
+    let l = [1, 2, 3];  // 数组必须是同一类型的数据
+    println!("The value of l: {:?}", l);
 }
 
 // 输出变量类型
