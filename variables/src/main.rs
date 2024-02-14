@@ -55,6 +55,7 @@ fn main() {
     let t = true;
     let f: bool = false;  // 附带了显式类型标注的语句
 
+
     // ===========================================
 
     let c = 'z';  // 一个char类型，占4个字节，是一个Unicode变量值
@@ -70,6 +71,11 @@ fn main() {
     println!("The value of t: {:?}", t);
 
     // 复合类型（Compound Type）- 数组（Array）
+
+    let t = (1, 25.0, 'f');  // 元组可以是不同类型的数据
+    println!("The value of t: {:?}", t);
+
+
     // let l = [1, 1.1, 'l'];  // 数组必须是同一类型的数据
     // let l = [1, 2, 'l'];  // 数组必须是同一类型的数据
     let l = [1, 2, 3];  // 数组必须是同一类型的数据
