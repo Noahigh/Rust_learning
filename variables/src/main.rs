@@ -74,12 +74,22 @@ fn main() {
 
     let t = (1, 25.0, 'f');  // 元组可以是不同类型的数据
     println!("The value of t: {:?}", t);
+    let (x,y,z) = t;  // 元组解构（Destructuring）
+    println!("The value of z is: {}", z);
+    println!("The value of y is: {}", t.1);  // 索引访问形式
+    println!("The value of x is: {}", t.0);  // 索引访问形式
+    print_type_of(&t.1);
 
 
     // let l = [1, 1.1, 'l'];  // 数组必须是同一类型的数据
     // let l = [1, 2, 'l'];  // 数组必须是同一类型的数据
     let l = [1, 2, 3];  // 数组必须是同一类型的数据
     println!("The value of l: {:?}", l);
+    let [a, b, c] = l;  // 数组解构（Destructuring）
+    println!("The value of l[0]: {}", l[0]);  // 索引访问形式
+    println!("The value of l[1]: {}", l[1]);  // 索引访问形式
+    println!("The value of l[2]: {}", c);
+
 }
 
 // 输出变量类型
