@@ -6,7 +6,7 @@ fn main() {
 
 
 fn another_function(x: i32, y: i32) {
-    println!("Another function.");
-    println!("The value of x is: {}.", x);
-    println!("The value of y is: {}.", y);
+    println!("Another function.");  // 这是一个语句
+    println!("The value of x is: {}.", x);  // 这是一个语句
+    println!("The value of y is: {}.", y);  // 这是一个语句
 }
