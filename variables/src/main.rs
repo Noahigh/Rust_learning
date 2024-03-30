@@ -96,3 +96,4 @@ fn main() {
 fn print_type_of<T>(_: &T) {
     println!("变量类型为：{}", std::any::type_name::<T>())
 }
+
