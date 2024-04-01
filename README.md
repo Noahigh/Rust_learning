@@ -80,3 +80,5 @@
 - git好像弄好了诶～～
 
 - 还得是GitHub自己的gh  👍
+
+- 次日测试`git push`
