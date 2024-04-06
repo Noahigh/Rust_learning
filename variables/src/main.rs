@@ -27,7 +27,7 @@ fn main() {
 
     println!("The value of y is: {}", y);
 
-    y = 3;
+    y = 3;  // 更改变量的值（2->3）
 
     println!("The value of y is: {}", y);
 
@@ -50,6 +50,10 @@ fn main() {
 
     let guess:u32 = "42".parse().expect("Not a number");  // 将字符串形式的数字转换为数字形式，此处必须标记变量类型，否则不知道转换成什么类型
     println!("The value of guess: {}", guess);
+
+    // 新写法
+    let n = 99i32;
+    println!("数字+类型写法：{}", n);
 
     // bool
     let t = true;
