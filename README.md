@@ -84,3 +84,5 @@
 - 次日测试`git push`
 
 - Mac mini 测试 `git push`
+
+- 开始尝试中医院
