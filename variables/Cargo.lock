@@ -3,9 +3,5 @@
 version = 3
 
 [[package]]
-name = "functions"
-version = "0.1.0"
-
-[[package]]
 name = "variables"
 version = "0.1.0"

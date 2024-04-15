@@ -17,6 +17,12 @@ fn another_function(x: i32, y: i32) {
 }
 
 
-fn another_function_1(mut x: i32, y: i32) -> i32{
-    x + y
+fn another_function_1(mut x: i32, y: i32) -> i32 {
+    x + y  // 这是一个表达式
+}
+
+
+fn multiplication_two_number(a: i32, b: i32) -> i32 {
+    // return a * b  // 加 return 关键字 的写法
+    a * b  // 省略 return 关键字的写法
 }
